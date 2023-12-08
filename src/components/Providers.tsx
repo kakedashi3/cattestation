@@ -2,16 +2,16 @@ import { ReactNode } from "react";
 
 import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import { WagmiConfig, createConfig } from "wagmi";
-import { arbitrum } from "viem/chains";
+import { arbitrum, sepolia } from "viem/chains";
 
 // 1. Get projectId
-const projectId = "";
+
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
-    alchemyId: "",
-    walletConnectProjectId: projectId,
-    chains: [arbitrum],
+    alchemyId: process.env.REACT_APP_ALCHEMY_ID,
+    walletConnectProjectId: process.env.REACT_APP_WALLET_CONNECT_PROJECT_ID!,
+    chains: [arbitrum, sepolia],
 
     // Required
     appName: "Cattestation",
