@@ -13,7 +13,7 @@ function App() {
     <Providers>
       <BrowserRouter>
         <Routes>
-          <Route path="/:cat" element={<Page />} />
+          <Route path="/" element={<Page />} />
         </Routes>
       </BrowserRouter>
     </Providers>
