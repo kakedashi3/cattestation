@@ -5,11 +5,11 @@ import { WagmiConfig, createConfig } from "wagmi";
 import { arbitrum } from "viem/chains";
 
 // 1. Get projectId
-const projectId = "42bc25907d305f0e5c7af2d1c734fb8b";
+const projectId = "";
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
-    alchemyId: "vCg5R8zMmPZd5XPggDXxZjAjx1uLaFrr",
+    alchemyId: "",
     walletConnectProjectId: projectId,
     chains: [arbitrum],
 
