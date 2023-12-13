@@ -11,7 +11,7 @@ const config = createConfig(
     // Required API Keys
     alchemyId: process.env.REACT_APP_ALCHEMY_ID,
     walletConnectProjectId: projectId,
-    chains: [arbitrum, sepolia],
+    chains: [sepolia],
 
     // Required
     appName: "Cattestation",

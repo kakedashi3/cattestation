@@ -10,7 +10,7 @@ import {
 } from "wagmi";
 import { Button } from "./ui/button";
 
-export const CONTRACT_ADDRESS = "0x87B253ab0a7ba6C7f273d5122C6246C444aDc517";
+export const CONTRACT_ADDRESS = "0x8789B934FDbDC791B48400290ADe01b4808a5eCb";
 
 export const CattestationABI = [
   {
