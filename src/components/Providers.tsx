@@ -5,7 +5,7 @@ import { WagmiConfig, createConfig } from "wagmi";
 import { sepolia } from "viem/chains";
 
 // 1. Get projectId
-const projectId = "42bc25907d305f0e5c7af2d1c734fb8b";
+const projectId = "760bf3599f14ff014797b60d0f128aef";
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
