@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import { WagmiConfig, createConfig } from "wagmi";
-import { arbitrum, sepolia } from "viem/chains";
+import { sepolia } from "viem/chains";
 
 // 1. Get projectId
 const projectId = "42bc25907d305f0e5c7af2d1c734fb8b";

@@ -579,7 +579,7 @@ export function Cattestation() {
         <Button className="w-full" asChild>
           <a
             target="_blank"
-            href={`https://arbitrum.easscan.org/address/${address}`}
+            href={`https://sepolia.etherscan.io/address/${address}`}
           >
             Check Attestation on EASscan
           </a>
