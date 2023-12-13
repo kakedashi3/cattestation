@@ -585,8 +585,8 @@ export function Cattestation() {
           </a>
         </Button>
         <Button className="w-full" asChild>
-          <a target="_blank" href={`https://opensea.io/${address}`}>
-            Check NFT on Opensea
+          <a target="_blank" href={`https://testnets.opensea.io/${address}`}>
+            Check NFT on Sepolia Opensea
           </a>
         </Button>
       </div>
