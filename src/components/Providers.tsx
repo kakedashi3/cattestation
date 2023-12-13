@@ -18,7 +18,7 @@ const config = createConfig(
 
     // Optional
     appDescription: "Pet all the cats!",
-    // appUrl: "https://family.co", // your app's url
+    appUrl: "https://cattestation-kakedashi3.vercel.app", // your app's url
     // appIcon: "https://family.co/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
   })
 );
